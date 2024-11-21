@@ -1,0 +1,108 @@
+.Request-button {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 120px;
+    cursor: pointer;
+    transition: opacity 0.25s;
+}
+
+.Request-button:hover {
+    opacity: 0.7;
+}
+
+.Add-to-cart-button {
+    background-color: rgb(255, 220, 62);
+    color: black;
+    height: 36px;
+    width: 150px;
+    border-radius: 20px; 
+    border: none;   
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.Add-to-cart-button:hover {
+    background-color: rgb(214, 146, 0);
+}
+
+.Sign-up-button {
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 36px;
+    background-color: rgb(46, 164, 79);
+    cursor: pointer;
+    color: white;
+    transition: box-shadow 0.25s;
+}
+
+.Sign-up-button:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.Bootstrap-Get-started-button {
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(121, 82,179);
+    color: white;
+    width: 120px;
+    height: 36px; 
+    cursor: pointer;
+}
+.Bootstrap-Get-started-button:hover {
+    background-color: rgb(78, 42, 133);
+}
+
+.Bootstrap-Download-button {
+    background-color: white;
+    color: rgb(108, 117,125);
+    border-radius: 3px;
+    border-width: 1px;
+    width: 120px;
+    height: 36px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.25s, background-color 0.25s;
+}
+
+.Bootstrap-Download-button:hover {
+    background-color: rgb(108, 117,125);
+    color: white;
+}
+.Apply-Button {
+    background-color: rgb(10,102,194);
+    color: white;
+    height: 36px;
+    width: 220px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.25s;
+
+}
+
+.Apply-Button:hover{
+    background-color: rgb(5, 67, 129);
+}
+
+.Save-button {
+    border-width: 1px;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(10,102,194);
+    border-radius: 20px;
+    height: 36px;
+    width: 70px;
+    border-color: rgb(10,102,194);
+    border-style: solid;
+    transition: background-color 0.25s, border-width 0.25s;
+}
+
+.Save-button:hover{
+    background-color: rgb(174, 219, 250);
+    border-width: 2px;
+}
+

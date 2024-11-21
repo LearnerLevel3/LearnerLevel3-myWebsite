@@ -1,0 +1,179 @@
+.Tahoma-font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.Arial-font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Sale-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-style: italic;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.course-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.level-type{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: gray;
+}
+
+.course-desc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    width: 400px;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.add-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.add-content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.add-link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: rgb(81, 81, 247);
+}
+
+p{
+    text-align: center;
+}
+.apple-hdr{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(211, 118, 31);
+    margin: 0px;
+    font-size: 14px;
+    margin-bottom: 6px;
+    font-weight:bold
+    
+}
+.apple-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+}
+.apple-dscr{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0px;
+    
+}
+.price-p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin: 0px;
+    margin-top: 6px;
+}
+.span-buy-btn{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(27, 109, 231);
+    border: none;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+    margin-top: 15px;
+    font-size: 16px;
+            
+}
+
+.current-price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 0px;
+
+}
+
+.change-price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(10, 117, 10);
+    margin: 0px;
+
+}
+.after-hours{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: grey;
+    margin: 0px;
+
+}
+.span-dollar-style{
+    font-size: 16px;
+    color: grey;
+
+}
+.span-difference-price{
+    color: rgb(177, 50, 11);
+    
+}
+
+
+.span-email-style{
+    color: gray;
+}
+.heading{
+    font-weight: bold;
+}
+.span-chp-style{
+    color: rgb(82, 147, 231);
+}
+.sub-para{
+    width: 450px;
+}
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Ex 13 - Nested Flexbox</title>
+        <style>
+            body{
+                font: Arial;
+            }
+            
+            .container{
+                width: 400px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+                border-radius: 4px;
+                margin-top: 20px;
+                margin-left: 20px;
+                
+            }
+
+            .notification-title{
+                font-size: 14px;
+                color: rgb(120, 120, 120);
+                margin-bottom: 20px;
+            }
+
+            .notification-body, .email{
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                margin-bottom: 20px;
+            }
+
+            .sender-picture-container{
+                margin-right: 10px;
+            }
+
+            .profile-picture{
+                height: 50px;
+                width: 50px;
+                border-radius: 25px;
+                object-fit: cover;
+                border: none;
+            }
+
+            .notification-details, .email-content{
+                flex: 1;
+            }
+
+            .notification-header, .email-header{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 3px;
+            }
+
+            .header-type, .sender-name{
+                font-weight: bold;
+                font-size: 18px;
+                
+            }
+
+            .header-message, .message{
+                font-size: 14px;
+                color: rgb(120, 120, 120);
+            }
+
+            .subject, .header-detail{
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+            
+
+            .time-stamp, .send-time{
+                font-size: 14px;
+                color: rgb(120, 120, 120);
+                
+            }
+
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="notification-title">
+                ALL INBOXES
+            </div>
+            <div class="notification-body">
+                <div class="sender-picture-container">
+                    <img class="profile-picture" src="cat.jpg" alt="cat-picture">
+                </div>                
+                <div class="notification-details">
+                    <div class="notification-header">
+                        <div class="header-type">
+                            Chewy Promotions
+                        </div>
+                        <div class="time-stamp">
+                            4:58 PM
+                        </div>                    
+                    </div>
+                    <div class="header-detail">
+                        Biggest sales of the year!
+                    </div>
+                    <div class="header-message">
+                        Hey there! We're writing to tell you about our
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </body>
+</html>

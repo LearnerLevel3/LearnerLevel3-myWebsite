@@ -1,0 +1,46 @@
+.box-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin: 0px;
+    
+}
+input{
+    border: none;
+    color: grey;
+    background-color: rgb(245, 243, 243);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 500px;
+}
+.pick-up-loc-input{
+    margin-top: 30px;
+}
+
+button{
+    margin-left: 5px;
+    margin-top: 25px;
+    margin-right: 20px;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.request-now-button{
+    color: white;
+    background-color: black;
+    font-size: 18px;
+}
+.schedule-later-button{
+    background-color: lightgray;
+    font-size: 18px;
+
+
+}

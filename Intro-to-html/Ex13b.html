@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Ex 13 - Nested Flexbox</title>
+        <style>
+            
+            .container{
+                display: flex;
+                height: 50px;
+                
+            }
+            .first-box{
+                width: 100px;
+                background-color: lightpink;                               
+            }
+            .flex-rows{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+            }
+
+            p{
+                margin: 0;
+            }
+
+            .text  {
+                color: white;
+                background-color: black;
+                margin-bottom: 15px;
+            }
+            .second-box{
+                background-color: lightblue;
+                width: 200px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="first-box"></div>
+            <div class="second-box">
+                <div>row1</div>
+                <div class="flex-rows">
+                    <div class="text">row2</div>
+                    <div class="text">row2</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

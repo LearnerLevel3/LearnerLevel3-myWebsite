@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Position absolute
+        </title>
+        <style>
+            .box{
+                position:relative;
+                display: inline-block;
+                top: 5px;
+                left: 5px;
+            }
+
+            .shirt-image{
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+            }
+
+            .time-stamp{
+                background-color: black;
+                color: white;
+                position: absolute;
+                top: 10px;
+                right: 0px;
+                font-family: Arial;
+                font-size: 18px;
+                padding-right: 10px;
+                padding-left: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+
+        </style>
+    </head>
+    <body style="height: 3000px;">
+        <div class="box">
+            <img class="shirt-image" src="short.jpg" alt="">
+            <div class="time-stamp">
+                20% OFF
+            </div>            
+        </div>
+    </body>
+</html>
+

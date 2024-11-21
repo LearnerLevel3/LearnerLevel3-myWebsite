@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Ex 13 - Nested Flexbox</title>
+        <style>
+            body{
+                font-family: Arial;
+            }
+            
+            .notification-body, .email{
+                display: flex;
+                flex-direction: row;
+                width: 420px;
+                margin-top: 10px;
+                margin-left: 20px;
+            }
+
+            .sender-picture-container{
+                margin-right: 10px;
+            }
+
+            .profile-picture{
+                height: 60px;
+                width: 60px;
+                border-radius: 30px;
+                object-fit: cover;
+            }
+
+            .notification-details, .email-content{
+                flex: 1;
+            }
+
+            .notification-header, .email-header{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            .span-user-handler{
+                color: rgb(116, 115, 115);
+                font-weight: 100;
+            }
+
+            
+            p{
+                margin: 0;
+            }
+            
+            .notification-header-details{
+                line-height: 20px;
+            }
+
+            .video-preview{
+                display: flex;
+                align-items: center;                
+                border-color: lightgrey;
+                border-radius: 15px;         
+                border-width: 1px;
+                margin-top: 20px;
+                border-style: solid;
+                overflow: hidden;
+
+            }
+
+            .video-thumbnail{
+                width: 100px;
+                height: 100px;
+                background-color: lightgrey;    
+                margin-right: 10px;
+            }
+
+            .video-details{
+                background-color: white;
+                flex: 1;
+            }
+
+            .video-url{
+
+                color: grey;
+                margin-bottom: 3px;
+                
+            }
+
+            .video-title{
+                line-height: 22px;
+            }
+
+
+
+
+
+        </style>
+    </head>
+
+    <body>
+            <div class="notification-body">
+                <div class="sender-picture-container">
+                    <img class="profile-picture" src="cat.jpg" alt="cat-picture">
+                </div>                
+                <div class="notification-details">
+                    <div class="notification-header"> 
+                        <p>supersimple.dev <span class="span-user-handler">@SuperSimpleDev</span></p>               
+                    </div>
+                    <div class="notification-header-details">
+                        What is backend web development? A complete overview. New video is up!
+                    </div>
+                    <div class="video-preview">
+                        <div class="video-thumbnail"></div>                        
+                        <div class="video-details">
+                            <div class="video-url">
+                                youtube.com
+                            </div>
+                            <div class="video-title">
+                                Backend web development - a complete overview (2021)
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+    </body>
+</html>

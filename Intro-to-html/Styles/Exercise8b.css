@@ -1,0 +1,15 @@
+p{
+    font-size: 20px;
+    width: 225px;
+    display: inline-block;
+    vertical-align: middle;
+}
+button{
+    
+    font-size: 20px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 3px;
+    background-color: rgb(231, 231, 231);
+    border-width: 1px;
+}

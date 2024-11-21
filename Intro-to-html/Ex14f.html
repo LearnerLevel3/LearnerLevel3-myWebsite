@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>14a-Position Fixed</title>
+        <style>
+            body{
+                height: 3000px;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-left: 100px;
+            }
+
+            .left-side-bar{
+                position: fixed;
+                top: 0px;
+                bottom: 0px;
+                left: 0px;
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                display: flex;   
+                background-color: rgba(20, 20, 20, 0.966);             
+            }
+
+
+            img {
+                height: 50px;
+                width: 50px;
+                object-fit: cover;
+                border: none;
+                border-radius: 25px;
+                
+            }
+
+            .sub-side-bar{
+                position: fixed;
+                top: 0px;
+                bottom: 0px;
+                left: 70px;                
+                background-color: rgba(20, 20, 20, 0.842);   
+                width: 150px;
+                padding-top: 15px;
+                padding-left: 15px;
+                padding-right: 15px;
+                line-height: 30px;
+            }
+
+
+            .main-menu{
+                display: flex;
+                justify-content: space-between;
+                color: rgba(255, 255, 255, 0.418);
+                font-size: 24px;
+                align-items: center;
+
+            }
+            .main-menu-title{
+                color: white;
+                font-size: 16px;
+            }
+
+            .sub-menu-content{
+                font-size: 16px;
+                color: rgba(255, 255, 255, 0.589);
+            }
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="left-side-bar">
+            <div class="image-container">
+                <div>
+                    <img src="cat.jpg" alt="">
+                </div>
+                <div>
+                    <img src="baby-jaguar.jpg" alt="">                    
+                </div>
+                <div>
+                    <img src="dog.jpg" alt="">
+                </div>       
+                                
+            </div>
+
+        </div>
+        <div class="sub-side-bar">
+            <div class="main-menu">
+                <div class="main-menu-title">INFO</div>
+                <div class="main-menu-expand">+</div>
+            </div>
+            <div class="sub-menu-content"># new-videos</div>
+            <div class="sub-menu-content"># updates</div>
+            <div class="sub-menu-content"># faq</div>
+        </div>
+    </body>
+</html>
