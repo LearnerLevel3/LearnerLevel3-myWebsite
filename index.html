@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/video.css">
         <link rel="stylesheet" href="styles/side-bar.css">
+        <link rel="stylesheet" href="styles/side-bar-background.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
@@ -28,6 +29,9 @@
                 <button class="voice-search-button">
                     <img class="voice-search-icon" src="media/icons/voice-search-icon.svg" alt="">
                     <div class="tooltip">Search with your voice</div>
+                </button>
+                <button class="dark-mode-button" onclick="myFunction();">
+                    <img class="dark-mode-toggle-icon" src="media/darkmode.png" alt="dark model toggle button">
                 </button>
             </div>
             
@@ -471,5 +475,15 @@
     
             </section>
         </main>
+
+        <script>
+            function myFunction() {
+            const element = document.body;
+            const headerElement = document.querySelector('.header');
+            const sideBarElement = document.querySelector('.side-bar');
+            element.classList.toggle("dark-mode");
+            headerElement.classList.toggle("dark-mode");
+            sideBarElement.classList.toggle("dark-mode");}
+        </script>
     </body>
 </html>
