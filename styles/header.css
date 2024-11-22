@@ -197,3 +197,7 @@
     border: none;
     padding: 0px;
 }
+
+.dark-mode.dark-mode-button{
+    background-color: grey;
+}
