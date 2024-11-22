@@ -47,18 +47,18 @@
     bottom: 0;
     top: 55px;
     background-color: white;
-    width: 240px;
+    width: 72px;
     z-index: 200;
-    padding-top: 13px;
+    padding-top: 5px;
 }
 
 .sidebar-link{
-
+    height: 74px;
     display: flex;
     align-items: center;
-    cursor: pointer;
-    padding: 8px 24px;
-    
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;    
 }
 
 .sidebar-link:hover{
@@ -67,12 +67,11 @@
 
 .sidebar-link img {
     height: 24px;
-    margin-right: 24px;
+    margin-bottom: 4px;
 }
 
 .sidebar-link div{
-    display: block;
-    font-family: Roboto, Arial;
+
     font-size: 10px;
 }
 
